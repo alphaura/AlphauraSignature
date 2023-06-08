@@ -20,8 +20,6 @@ img {
     text-align: center;
 }
 
-
-
 .flex > div {
     flex: 1 1;
     text-align: justify;
@@ -29,7 +27,7 @@ img {
 
 .col2 {
     margin-top: 2rem;
-    transition: all 1s ease 0s;
+    transition: all 1s ease;
 }
 
 h1 {
@@ -51,7 +49,7 @@ p {
 }
 
 .col1 {
-    transition: all 1s ease 0s;
+    transition: all 1s ease;
 }
 
 .col1:hover {
