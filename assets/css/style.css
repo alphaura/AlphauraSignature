@@ -18,16 +18,9 @@ img {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 }
 
-.flex {
-    display: flex;
-}
+
 
 .flex > div {
     flex: 1 1;
@@ -35,13 +28,13 @@ img {
 }
 
 .col2 {
-    margin-left: 5rem;
+    margin-top: 2rem;
     transition: all 1s ease 0s;
 }
 
 h1 {
     font-size: 4rem;
-    margin: 0;
+    margin: 3rem 0 0 0;
     font-family: TheNightWatch, 'Amarante', serif;
 }
 
@@ -71,6 +64,18 @@ p {
     background-color: rgba(206, 206, 206, 0.436);
     padding: 1rem;
     transform: scale(1.1);
+}
+
+
+@media ( min-width: 600px ) {
+    .flex {
+        display: flex;
+    }
+
+    .col2 {
+        margin-left: 5rem;
+        margin-top: 0;
+    }
 }
 
 
