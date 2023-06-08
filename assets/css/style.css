@@ -36,14 +36,42 @@ img {
 
 .col2 {
     margin-left: 5rem;
+    transition: all 1s ease 0s;
 }
 
 h1 {
     font-size: 4rem;
     margin: 0;
-    font-family: TheNightWatch, 'Amarante', cursive;
+    font-family: TheNightWatch, 'Amarante', serif;
 }
 
+h2 {
+    margin-bottom: 2rem;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.col1 {
+    transition: all 1s ease 0s;
+}
+
+.col1:hover {
+    background-color: rgba(206, 206, 206, 0.436);
+    padding: 1rem;
+    transform: scale(1.1);
+}
+
+.col2:hover {
+    background-color: rgba(206, 206, 206, 0.436);
+    padding: 1rem;
+    transform: scale(1.1);
+}
 
 
 /* 
