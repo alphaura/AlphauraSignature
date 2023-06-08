@@ -67,7 +67,7 @@ p {
 }
 
 
-@media ( min-width: 600px ) {
+/* @media ( min-width: 600px ) {
     .flex {
         display: flex;
     }
@@ -76,7 +76,7 @@ p {
         margin-left: 5rem;
         margin-top: 0;
     }
-}
+} */
 
 
 /* 
