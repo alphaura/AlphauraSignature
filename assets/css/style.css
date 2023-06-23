@@ -29,6 +29,7 @@ img {
 .col2 {
     margin: 2rem 0 0;
     transition: all 1s ease;
+    align-self: flex-start;
 }
 
 h1 {
@@ -53,6 +54,7 @@ p {
 
 .col1 {
     transition: all 1s ease;
+    margin: 3rem 0;
 }
 
 .col1:hover {
@@ -84,6 +86,10 @@ img {
 
     img {
         width: 30%;
+    }
+
+    .col1 {
+        margin: 0;
     }
 }
 
